@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Monstera-Regular';
+  src: local('Monstera-Regular'),
+  url(./fonts/Monstera-Regular.ttf) format('truetype');
+}
+
 .App {
   text-align: center;
 }
@@ -14,7 +20,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #90ba93;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,14 +31,24 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #f98cb3;
+  font-family: 'Monstera-Regular';
+  text-decoration: none;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Aroid-icon {
+  /* position: absolute; */
+  width: 355px;
+  height: 103px;
+  /* left: 1033px;
+  top: 823px; */
+}
+
+.Buy-now-icon{
+  /* position: absolute; */
+  width: 468px;
+  height: 92px;
+  /* left: 36px;
+  top: 834px; */
 }
