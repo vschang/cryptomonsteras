@@ -1,0 +1,20 @@
+.Nube-izq{
+  width: 613.2px;
+  height: 248.8px;
+  z-index: 0;
+
+}
+
+.Nube-buy{
+  width:775.2px;
+  height: 388.4px;
+  z-index: 1;
+}
+
+.Buy-now-icon{
+  /* position: absolute; */
+  width: 416.5px;
+  height: 71.8px;
+  /* left: 36px;
+  top: 834px; */
+}

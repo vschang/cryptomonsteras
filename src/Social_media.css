@@ -1,0 +1,22 @@
+.Flex{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  right: 525px;
+  top: 25px;
+}
+
+.Ig-logo{
+  /* height: 80px; multiplied by .65
+  width: 80px; */
+  height: 52px;
+  width: 52px;
+  padding-bottom: 10px;
+}
+
+.Spotify-logo{
+  /* height: 80px; multiplied by .65
+  width: 80px; */
+  height: 52px;
+  width: 52px;
+}

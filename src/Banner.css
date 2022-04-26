@@ -1,0 +1,18 @@
+/* .Texto-arriba{
+  height: 32px;
+  width: 1100px;
+  position: absolute;
+  bottom: -43px;
+  left: -100px
+}
+
+.Text-div{
+  z-index: 2;
+} */
+
+.Banner-text{
+  font-family: 'Monstera-Regular';
+  font-size: 30px;
+  color: #90ba93;
+  margin-top: 12px;
+}
