@@ -1,22 +1,42 @@
 .Flex{
   display: flex;
   flex-direction: column;
-  position: relative;
-  right: 525px;
-  top: 25px;
+  position: fixed;
+  left: 20px;
+  top: 90px;
 }
 
 .Ig-logo{
   /* height: 80px; multiplied by .65
   width: 80px; */
-  height: 52px;
-  width: 52px;
+  height: 45px;
+  width: 45px;
   padding-bottom: 10px;
+}
+
+:hover.Ig-logo{
+  opacity:80%;
 }
 
 .Spotify-logo{
   /* height: 80px; multiplied by .65
   width: 80px; */
-  height: 52px;
-  width: 52px;
+  height: 45px;
+  width: 45px;
+  padding-bottom: 10px;
+}
+
+:hover.Spotify-logo{
+  opacity:80%;
+}
+
+.Discord-logo{
+  /* height: 80px; multiplied by .65
+  width: 80px; */
+  height: 35px;
+  width: 45px;
+}
+
+:hover.Discord-logo{
+  opacity:80%;
 }
