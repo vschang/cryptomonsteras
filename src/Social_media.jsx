@@ -8,13 +8,13 @@ const SocialMedia = () => {
   return (
     <div className='Flex'>
       <a href="https://www.instagram.com/cryptomonstera/" target="_blank">
-        <img src={igLogo} className="Ig-logo" alt='instagram logo' />
+        <img src={igLogo} className="Ig-logo Cursor" alt='instagram logo' />
       </a>
       <a href="https://reactjs.org" target="_blank">
-        <img src={spotifyLogo} className="Spotify-logo" alt='spotify logo' />
+        <img src={spotifyLogo} className="Spotify-logo Cursor" alt='spotify logo' />
       </a>
       <a href="https://reactjs.org" target="_blank">
-        <img src={discordLogo} className="Discord-logo" alt='discord logo' />
+        <img src={discordLogo} className="Discord-logo Cursor" alt='discord logo' />
       </a>
     </div>
   );

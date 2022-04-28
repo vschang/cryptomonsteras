@@ -79,6 +79,7 @@
  left: 10px;
  background: none;
  border: none;
+ cursor: url('images/cursor_compressed.png'), default;
 }
 
 .button:hover{
@@ -91,6 +92,8 @@
   height: 44px;
 }
 
+
 body{
   margin: 0;
+  cursor: url('images/cursor_compressed.png'), default;
 }
