@@ -50,6 +50,7 @@
   color:#90ba93;
   border: solid;
   padding: 5px 10px;
+  cursor: url('images/cursor_compressed.png'), default;
 }
 
 :hover.close{

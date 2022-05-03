@@ -55,15 +55,24 @@
 
 
 .Logo{
-  /* height: 582px; multiplied by 0.65
+  /* height: 582px; multiplied by 0.7
   width: 307px; */
-  width: 378px;
-  height: 200px;
+  width: 407px;
+  height: 215px;
   position: absolute;
   left: 400px;
   right: 0px;
   z-index: 0;
   opacity: 1;
+}
+
+@keyframes grow {
+  from {
+      transform: scale(1);
+  }
+  to {
+      transform: scale(4.333);
+  }
 }
 
 .Marquee-fixed{
@@ -74,24 +83,38 @@
 }
 
 .button{
- position: fixed;
- bottom: 50px;
- left: 10px;
  background: none;
  border: none;
  cursor: url('images/cursor_compressed.png'), default;
 }
 
-.button:hover{
-  opacity:80%;
+
+.Roadmap-nube{
+  position: fixed;
+  width: 540px;
+  height: 340px;
+  bottom: -85px;
+  right: -95px;
+}
+
+.Roadmap-nube:hover{
+  /* opacity:80%; */
   transform: scale(1.1, 1.1);
 }
 
-.Roadmap-logo{
-  width: 244px;
-  height: 44px;
+.Nube-buy{
+  position: fixed;
+  width: 560px;
+  height: 272px;
+  bottom: -70px;
+  left: -90px;
 }
 
+.Nube-buy:hover{
+  /* opacity:80%; */
+  transform: scale(1.1, 1.1);
+  cursor: url('images/cursor_compressed.png'), default;
+}
 
 body{
   margin: 0;

@@ -20,6 +20,7 @@
 
 :hover.Ig-logo{
   opacity:80%;
+  transform: scale(1.1 , 1.1)
 }
 
 .Spotify-logo{
@@ -32,6 +33,7 @@
 
 :hover.Spotify-logo{
   opacity:80%;
+  transform: scale(1.1 , 1.1)
 }
 
 .Discord-logo{
@@ -43,4 +45,5 @@
 
 :hover.Discord-logo{
   opacity:80%;
+  transform: scale(1.1 , 1.1)
 }
