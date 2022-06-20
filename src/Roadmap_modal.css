@@ -19,14 +19,14 @@
   pointer-events: visible;
 }
 
-
 .modal-content{
-  width: 1000px;
-  background-color: #ffcfe3;
+  width: 90vw;
+  background-color: #f98cb3;
   opacity: 100%;
   border-radius: 10px;
   font-family: 'Monstera-Regular';
   color: #f98cb3;
+  overflow: auto;
 }
 
 .modal-header, .modal-footer {
@@ -41,6 +41,8 @@
   padding:10px;
   /* border-top: 1px solid #eee;
   border-bottom: 1px solid #eee; */
+  overflow-y: auto;
+  height: 500px;
 }
 
 .close{
@@ -55,4 +57,10 @@
 
 :hover.close{
   opacity: 80%;
+}
+
+.Roadmap-ing{
+  height: 1300px;
+  width: 80vw;
+  overflow-y: auto;
 }
