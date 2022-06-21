@@ -1,49 +1,127 @@
-.Flex{
-  display: flex;
-  flex-direction: column;
-  position: fixed;
-  left: 20px;
-  top: 90px;
+@media (max-width: 820px) {
+  .Flex{
+    display: flex;
+    padding-top:70px;
+    padding-left:10px;
+  }
+
+  .Ig-logo{
+    /* height: 80px; multiplied by .65
+    width: 80px; */
+    height: 35px;
+    width: 35px;
+    padding: 10px;
+  }
+
+  .Spotify-logo{
+    /* height: 80px; multiplied by .65
+    width: 80px; */
+    height: 35px;
+    width: 35px;
+    padding: 10px;
+  }
+
+  .Discord-logo{
+    /* height: 80px; multiplied by .65
+    width: 80px; */
+    height: 27px;
+    width: 35px;
+    padding: 12px 10px 10px 10px;
+  }
 }
 
-.Cursor{
-  cursor: url('images/cursor_compressed.png'), default;
+@media (min-width: 820px) and (max-width: 1250px) {
+  .Flex{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 30px;
+    top: 120px;
+  }
+
+  .Cursor{
+    cursor: url('images/cursor_compressed.png'), default;
+  }
+
+  .Ig-logo{
+    height: 65px;
+    width: 65px;
+    padding-bottom: 20px;
+  }
+
+  :hover.Ig-logo{
+    opacity:80%;
+    transform: scale(1.1 , 1.1)
+  }
+
+  .Spotify-logo{
+    height: 65px;
+    width: 65px;
+    padding-bottom: 20px;
+  }
+
+  :hover.Spotify-logo{
+    opacity:80%;
+    transform: scale(1.1 , 1.1)
+  }
+
+  .Discord-logo{
+
+    height: 48px;
+    width: 65px;
+  }
+
+  :hover.Discord-logo{
+    opacity:80%;
+    transform: scale(1.1 , 1.1)
+  }
 }
 
-.Ig-logo{
-  /* height: 80px; multiplied by .65
-  width: 80px; */
-  height: 45px;
-  width: 45px;
-  padding-bottom: 10px;
-}
+@media (min-width: 1251px) {
+  .Flex{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 30px;
+    top: 150px;
+  }
 
-:hover.Ig-logo{
-  opacity:80%;
-  transform: scale(1.1 , 1.1)
-}
+  .Cursor{
+    cursor: url('images/cursor_compressed.png'), default;
+  }
 
-.Spotify-logo{
-  /* height: 80px; multiplied by .65
-  width: 80px; */
-  height: 45px;
-  width: 45px;
-  padding-bottom: 10px;
-}
+  .Ig-logo{
 
-:hover.Spotify-logo{
-  opacity:80%;
-  transform: scale(1.1 , 1.1)
-}
+    height: 85px;
+    width: 85px;
+    padding-bottom: 20px;
+  }
 
-.Discord-logo{
-  /* height: 80px; multiplied by .65
-  width: 80px; */
-  height: 35px;
-  width: 45px;
-}
+  :hover.Ig-logo{
+    opacity:80%;
+    transform: scale(1.1 , 1.1)
+  }
 
-:hover.Discord-logo{
-  opacity:80%;
-  transform: scale(1.1 , 1.1)
+  .Spotify-logo{
+
+    height: 85px;
+    width: 85px;
+    padding-bottom: 20px;
+  }
+
+  :hover.Spotify-logo{
+    opacity:80%;
+    transform: scale(1.1 , 1.1)
+  }
+
+  .Discord-logo{
+
+    height: 68px;
+    width: 85px;
+  }
+
+  :hover.Discord-logo{
+    opacity:80%;
+    transform: scale(1.1 , 1.1)
+  }
 }

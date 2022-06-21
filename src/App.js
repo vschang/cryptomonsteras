@@ -24,9 +24,9 @@ function App() {
       <SocialMedia />
       <img src={base} className="Base" alt='base of banner' />
       <img src={blur} className="Blur" alt='blur of background' />
-      <img src={logo} className="Logo" idName='keyframes' alt='logo' />
+      <img src={logo} className="Logo" idname='keyframes' alt='logo' />
       <img src={monstera} className="Monstera" alt='monstera background' />
-      <a href="https://reactjs.org" target="_blank">
+      <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
         <img src={nubeBuy} className="Nube-buy" alt='nube buy button' />
       </a>
       <button className='button' onClick={() => setShow(true)}><img src={nubeRoadmap} className="Roadmap-nube" alt='Roadmap nube button' /></button>
